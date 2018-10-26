@@ -5,4 +5,4 @@
 
 Includes voice-activated Arc Reactor.
 
-Follow Hackster guide [here](https://hackster.io/matrix-labs) to learn how to build your iron man suit complete with the Arc Reactor.
+Follow Hackster guide [here](https://www.hackster.io/matrix-labs/iron-man-arc-reactor-with-matrix-device-and-snips-ai-5a125a) to learn how to build your iron man suit complete with the Arc Reactor.
