@@ -5,7 +5,7 @@
 /////////////
 //VARIABLES//
 /////////////
-
+var snipsUserName = "YOUR_SNIPS_USERNAME";
 var zmq = require('zeromq');// Asynchronous Messaging Framework
 var matrix_io = require('matrix-protos').matrix_io;// Protocol Buffers for MATRIX function
 var matrix_ip = '127.0.0.1';// Local IP
@@ -122,8 +122,8 @@ var HOST = 'localhost';
 var client  = mqtt.connect('mqtt://' + HOST, { port: 1883 });
 
 //hermes/intent/account username: intentName
-var ReactorOff = 'hermes/intent/sfi6zy:ArcReactorOff'; 
-var ReactorOn = 'hermes/intent/sfi6zy:ArcReactorOn'; 
+var ReactorOff = 'hermes/intent/'+snipsUserName+':ArcReactorOff'; 
+var ReactorOn = 'hermes/intent/'+snipsUserName+':ArcReactorOn'; 
 
 client.on('connect', function() {
 	console.log("Connected to " + HOST);
