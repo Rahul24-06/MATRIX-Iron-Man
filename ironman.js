@@ -5,7 +5,7 @@
 /////////////
 //VARIABLES//
 /////////////
-var snipsUserName = "alexisCruz";
+var snipsUserName = "YOUR_SNIPS_USERNAME";
 const matrix = require('@matrix-io/matrix-lite');
 var mqtt = require('mqtt');
 var client  = mqtt.connect('mqtt://localhost', { port: 1883 });
